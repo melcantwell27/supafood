@@ -34,3 +34,62 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+/log/
+
+# Ignore local configurations
+/local_settings.py
+
+# Ignore environment files
+.env*
+
+# Ignore compiled JavaScript files
+/static/js/
+
+# Ignore compiled stylesheets
+/static/css/
+
+package-lock.json
+
+# Ignore Flask specific
+/instance/
+*.sqlite
+*.pyc
+
+# Ignore Django specific
+*.sqlite3
+*.pyc
+*.pyo
+*.pyc
+__pycache__/
+*.log
+*.pot
+*.pytz
+local_settings.py
+media
+/static/
+/static_root/
+
+#ignore .next
+/.next/
+
+#large files .node
+app/node_modules/@next/**/*.node
+
+# Ignore dependencies
+/app/yarn.lock
+/app/package-lock.json
+
+# Ignore Python virtual environment
+/venv/
+
+# Ignore local development settings
+.env
